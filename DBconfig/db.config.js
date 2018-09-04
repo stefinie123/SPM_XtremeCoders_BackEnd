@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 //requiring schemas
-var StudentSchema = require('../Modules/StudentSchema');
+var StudentSchema = require('../Models/StudentSchema');
 
 //registering models
 mongoose.model('Student', StudentSchema);
